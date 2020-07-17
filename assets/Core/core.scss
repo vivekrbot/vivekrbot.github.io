@@ -1,0 +1,38 @@
+/* Main Style Scss File */
+
+//@import Section
+@import "src/assets/Core/Scss/layoutcontainer.scss";
+@import "src/assets/Core/Scss/Navbar/navbar.scss";
+@import "src/assets/Core/Scss/exception.scss";
+@import "src/assets/Core/Scss/Pages_Scss/portfolio.scss";
+
+html * {
+
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  overflow-x: hidden;
+  background: #F6F6F6;
+}
+:root {
+  /*Theme Colors*/
+  --primarycore: #1C57EE;
+  --blackcore: #000000;
+  --grey_body: #868686;
+  --grey_content: #BEBEBE;
+  --grey_bg: #EFEFEF;
+
+}

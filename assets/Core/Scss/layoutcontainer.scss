@@ -1,0 +1,25 @@
+
+/* Container, Layout and Basic Styles */
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+//Img-Container
+.img-container {
+
+  .img-item {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+/* Space Vertical sv-# */
+@mixin cardsv {
+  margin-top: 25vh;
+}
+
+
+

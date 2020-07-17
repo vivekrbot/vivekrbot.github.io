@@ -1,0 +1,66 @@
+/* Nav Bar Style */
+
+.nav-container {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+
+  .nav-div {
+    padding: 1em;
+
+    .nav-logo {
+      float: left;
+      margin-left: 1em;
+    }
+    .nav-items {
+      float: right;
+      margin-right: 1em;
+
+      .menu-container {
+        display: inline-flex;
+        .menu-items {
+          margin-left: 5em;
+          a {
+            color: var(--grey_body);
+            text-decoration: none;
+            .menu-lists {
+              font-size: 1em;
+              font-weight: 400;
+              .list-underline {
+                width: 0em;
+                height: 3px;
+                background: var(--primarycore);
+                transition: 0.5s ease-in-out;
+              }
+              transition: 0.5s ease-in-out;
+
+              &:hover {
+                color: var(--blackcore);
+                .list-underline {
+                  width: 1.5em;
+                  height: 3px;
+                  transition: 0.5s ease-in-out;
+                }
+                transition: 0.5s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.active {
+  color: var(--blackcore) !important;
+  .list-underline {
+    width: 1.5em !important;
+    height: 3px !important;
+    transition: 0.5s ease-in-out !important;
+  }
+}
+
+//img Override
+.logo-container {
+  width: 65%;
+}
